@@ -1,6 +1,9 @@
 @charset "UTF-8"; 
 
-.wrapper{}
+/* -----------------------------------
+start 全体設定
+----------------------------------- */
+.wrapper{width: 100%;}
 .cf{
 	display: block;
 	visibility: hidden;
@@ -13,9 +16,12 @@
 	clear: both;
 	content: "";
 }
-
+/* -----------------------------------
+end 全体設定 　　start ヘッダー
+----------------------------------- */
 
 header{
+	width: 100%;
 	background-color: #dddddd;
 	margin-top: -21px;
 }
@@ -23,7 +29,7 @@ header{
 header nav{
 	float: left;
 }
-header nav ul{margin-left: 100px;}
+header nav ul{padding-left: 100px;}
 header nav ul li {
 	float: left;
 	/*box-sizing: border-box;*/
@@ -63,6 +69,7 @@ main{
 main .left{
 	width: 30%;
 	float: left;
+	margin-left: 3%;
 	background-color: green;
 }
 .user_border{
@@ -106,9 +113,9 @@ main .left{
 
 
 main .right{
-	width: 60%;
+	width: 61%;
 	float: left;
-	margin-left: 20px;
+	margin: 0 3%;
 	background-color: blue;
 }
 .tweetbox{}
@@ -146,6 +153,6 @@ main .right{
 	margin-left: 10%;
 }
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 1200px) {
 
 }
