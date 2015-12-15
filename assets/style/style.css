@@ -1,0 +1,151 @@
+@charset "UTF-8"; 
+
+.wrapper{}
+.cf{
+	display: block;
+	visibility: hidden;
+	clear: both;
+	content: "";
+}
+.afcf:after{
+	display: block;
+	visibility: hidden;
+	clear: both;
+	content: "";
+}
+
+
+header{
+	background-color: #dddddd;
+	margin-top: -21px;
+}
+
+header nav{
+	float: left;
+}
+header nav ul{margin-left: 100px;}
+header nav ul li {
+	float: left;
+	/*box-sizing: border-box;*/
+	border-left: solid 2px gray;
+	margin: 7px 0;
+}
+header nav ul li a{
+	display: block;
+	padding: 7px 30px;
+}
+header nav ul li:last-child{
+	border-right: solid 2px gray;
+}
+header nav ul li a{}
+
+header h1{}
+header h1 img{}
+
+header form{}
+header form p{
+	position: absolute;
+	float: left;
+	right: 30px;
+	margin: 10px 0;
+
+}
+
+
+main{
+	width: 1200px;
+	margin: 20px auto 0 auto;
+	overflow: hidden;
+}
+
+
+
+main .left{
+	width: 30%;
+	float: left;
+	background-color: green;
+}
+.user_border{
+	width: 100%;
+	background-color: gray;
+}
+.user_border .user_box{}
+.user_border .user_box .user_box_bgimage{
+	display: block;
+	height: 170px;
+	width: 100%;
+	background-image: url(../images/test_user_bgimage.jpg);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	background-color: blue;
+}
+.user_border .user_box .user_data .user_image{
+	background-image: url(../images/test_user_image.jpg);
+	background-position: 1% 35%;
+	-webkit-background-size: 400%;
+	background-size: 400%;
+	height: 100px;
+	width: 30%;
+	margin-top: -50px;
+	float: left;
+}
+.user_border .user_box .user_name{}
+.user_border .user_box .user_data .user_name .user_nametext{}
+.user_border .user_box .user_data .user_name .user_id{}
+.user_border .user_box .user_data ul.user_data_three{}
+.user_border .user_box .user_data ul.user_data_three li{
+	width: 30%;
+	float: left;
+}
+.user_border .user_box .user_data ul.user_data_three li.user_data_tweet{}
+.user_border .user_box .user_data ul.user_data_three li.user_data_follower{}
+.user_border .user_box .user_data ul.user_data_three li.user_data_follower{}
+.user_border .user_box .user_data ul.user_data_three li.text_small{}
+.user_border .user_box .user_data ul.user_data_three li.text_normal{}
+
+
+
+main .right{
+	width: 60%;
+	float: left;
+	margin-left: 20px;
+	background-color: blue;
+}
+.tweetbox{}
+.tweetbox .tweetbox_image{
+	background-image: url(../images/test_user_image.jpg);
+	-webkit-background-size: 400%;
+	background-size: 400%;
+	background-position: 1% 35%;
+	height: 54px;
+	width: 8%;
+	float: left;
+}
+.tweetbox .tweet_text_box{}
+.tweetbox .tweet_text_box p{
+	float: left;	
+}
+.tweetbox .tweet_text_box p input{
+	padding: 15px 0;
+}
+
+.oll_tweet{}
+.oll_tweet .tweet_user_image{
+	background-image: url(../images/test_user_image.jpg);
+	-webkit-background-size: 400%;
+	background-size: 400%;
+	background-position: 1% 35%;
+	height: 54px;
+	width: 8%;
+	float: left;
+}
+.oll_tweet .tweet_user_name{
+	margin-left: 30px;
+}
+.oll_tweet .tweet_text{
+	margin-left: 10%;
+}
+
+@media screen and (max-width: px) {
+
+}
