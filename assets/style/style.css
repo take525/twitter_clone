@@ -23,7 +23,6 @@ end 全体設定 　　start ヘッダー
 header{
 	width: 100%;
 	background-color: #dddddd;
-	margin-top: -21px;
 }
 
 header nav{
@@ -50,9 +49,7 @@ header h1 img{}
 
 header form{}
 header form p{
-	position: absolute;
 	float: left;
-	right: 30px;
 	margin: 10px 0;
 
 }
@@ -86,17 +83,21 @@ main .left{
 	background-size: 100%;
 	background-color: blue;
 }
+.user_border .user_box .user_data{
+	height: 50px;
+}
 .user_border .user_box .user_data .user_image{
 	background-image: url(../images/test_user_image.jpg);
 	background-position: 1% 35%;
 	-webkit-background-size: 400%;
 	background-size: 400%;
+
 	height: 100px;
-	width: 30%;
+	width: 100px;
 	margin-top: -50px;
 	float: left;
 }
-.user_border .user_box .user_name{}
+.user_border .user_box .user_name{height: 50px;}
 .user_border .user_box .user_data .user_name .user_nametext{}
 .user_border .user_box .user_data .user_name .user_id{}
 .user_border .user_box .user_data ul.user_data_three{}
