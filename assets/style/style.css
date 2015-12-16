@@ -178,7 +178,7 @@ main .right{
 }
 .oll_tweet ul li .tweet_action{margin: 15px 0;}
 .oll_tweet ul li .tweet_action a{margin: 0 30px 0 15px;}
-.oll_tweet ul li .tweet_action a img{width: 5%;}
+.oll_tweet ul li .tweet_action a img{width: 4%;}
 
 @media screen and (max-width: 1200px) {
 
