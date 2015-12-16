@@ -134,12 +134,11 @@ main .right{
 	background-size: 400%;
 	background-position: 1% 35%;
 
-	margin: 0 1%;
+	margin: 0 1% 1% 1%;
 	height: 60px;
 	width: 8.5%;
 	float: left;
 }
-.tweetbox .tweet_text_box{}
 .tweetbox .tweet_text_box p:first-child{
 	width: 77%;
 	float: left;	
