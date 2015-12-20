@@ -32,17 +32,32 @@ header nav{
 header nav ul{}
 header nav ul li {
 	float: left;
-	border-left: solid 2px gray;
 	margin: 7px 0;
+
+	/*border-left: solid 2px gray;*/
 }
 header nav ul li a{
 	display: block;
-	padding: 7px 30px;
+	padding: 7px 40px;
 }
-header nav ul li:last-child{
+/*header nav ul li:last-child{
 	border-right: solid 2px gray;
+}*/
+header nav ul li.h_nav1 a{
+	background: url(../images/home_icon.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
 }
-header nav ul li a{}
+header nav ul li.h_nav2 a{
+	background: url(../images/tuti_icon.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+header nav ul li.h_nav3 a{
+	background: url(../images/mail_icon.png) no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
 
 header h1{
 	position: absolute;
