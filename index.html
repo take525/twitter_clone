@@ -22,7 +22,7 @@
 <script type="text/javascript" src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 <!--[if gt IE 9]><!-->
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="assets/script/script.js"></script>
 <!--<![endif]-->
 </head>
@@ -81,8 +81,10 @@
 			<div class="tweetbox afcf">
 				<div class="tweetbox_image"></div>
 				<form class="tweet_text_box" method="post" action="#" name="tweet">
-					<p><label><textarea></textarea></label></p>
-					<p><input type="submit" value="ついーと"></p>
+					<p><label><textarea class="tweet_textarea"></textarea></label></p>
+					<div class="on_focus">
+						<p><input type="submit" value="ついーと"></p>
+					</div>
 				</form>
 			</div>
 
