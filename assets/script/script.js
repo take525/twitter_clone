@@ -8,7 +8,7 @@ $(function(){
 //  })
 
  $("textarea.tweet_textarea").focus(function(){
-              $(this).css('height','150px');
+              $(this).css('height','100px');
               $("div.on_focus").css('display','block');
            }).blur(function(){
                $(this).css('height','58px');
