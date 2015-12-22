@@ -8,6 +8,9 @@ start 全体設定
 	background-color: #f5f8fa;
 	height: 10000px;
 }
+a:hover{
+	opacity: .5;
+}
 .cf{
 	display: block;
 	visibility: hidden;
@@ -44,7 +47,9 @@ header nav ul li {
 header nav ul li a{
 	display: block;
 	padding: 7px 40px;
+	text-decoration: none;
 }
+header nav ul li a:link,a:visited{color: #000;}
 /*header nav ul li:last-child{
 	border-right: solid 2px gray;
 }*/
@@ -116,6 +121,7 @@ main .left{
 	background-size: 100%;
 	border-radius: 7px 7px 0 0;
 }
+.user_border .user_box a.user_box_bgimage:hover{opacity: 1;}
 .user_border .user_box .user_data{
 	height: 50px;
 }
